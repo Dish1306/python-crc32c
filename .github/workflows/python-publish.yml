@@ -2,8 +2,8 @@
 name: Build binary wheels and upload to PyPI
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: master
 
 jobs:
   build-source-distribution:
